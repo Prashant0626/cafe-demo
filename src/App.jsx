@@ -10,7 +10,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 // ─── App ──────────────────────────────────────────────────────────────────────
-export default function App() {
+ function App() {
   const scrollY = useScrollY();
   const visible = useSectionVisibility();
 
@@ -1256,3 +1256,5 @@ function CafeWebsite() {
     </div>
   );
 }
+
+export default CafeWebsite;
